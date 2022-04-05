@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.clamped {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  vertical-align: middle;
+}
