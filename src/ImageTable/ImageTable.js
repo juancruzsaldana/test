@@ -40,7 +40,8 @@ const ImageTable = (props) => {
     }
     return (    
     <div className="ImageTable dark:bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 p-5 min-h-screen">
-        <h1 className="text-center text-2xl font-bold text-slate-200 mb-3">Image Table</h1>
+        <h1 className="text-center text-2xl font-bold text-slate-200">Image Table</h1>
+        <h6 className="text-center text-sm text-neutral-500 font-medium text-slate-200 mb-3">(Click on a row to edit image data)</h6>
         <table className="table-auto border-collapse border border-slate-500 text-xs text-slate-200 w-full h-full">
             <thead>
                 <tr className="bg-slate-500">
